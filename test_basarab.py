@@ -37,7 +37,7 @@ def test_fast_buy(browser):
     input_name.send_keys("тест")
     #почта
     input_name = browser.find_element(By.XPATH, "//input[@id='fastFormEmail']")
-    input_name.send_keys("тест")
+    input_name.send_keys("test@test.test")
     #текст
     input_name = browser.find_element(By.XPATH, "//textarea[@id='fastFormComment']")
     input_name.send_keys("тест")
